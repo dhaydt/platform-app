@@ -1,0 +1,33 @@
+.bg-ungu{
+    background-color: rgb(165, 160, 250) !important;
+    transition: 0.3s;
+}
+
+.bg-ungu:hover {
+    background-color:rgb(111, 106, 204) !important;
+}
+
+input[type=search] {
+    width: 5%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fff;
+    background-image: url(search.png);
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    padding: 12px 2px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    outline: none;
+    z-index: 10;
+}
+input[type=search]:hover {
+    cursor: pointer;
+}
+input[type=search]:focus {
+    width: 100%;
+    cursor: text;
+    /* transform: translate(-150px,0px); */
+}
